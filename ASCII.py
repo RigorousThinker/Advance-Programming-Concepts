@@ -1,3 +1,4 @@
-ch = input("Enter a character: ")
+s = input("Enter a string: ")
 
-print("ASCII value of", ch, "is", ord(ch))
+for ch in s:
+    print(ch, "=", ord(ch))
